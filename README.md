@@ -286,6 +286,22 @@ ALTER TABLE siswa DROP CONSTRAINT pk_siswa;
 ![gambar27](ss/k.png)
 
 
+Apa maksud dari int (11)?
+jawab :
+
+Yang dimaksud int(11) artinya suatu data yang dipakai atau digunakan menggunakan tipe data int atau integer dengan length atau panjang karakter 11.
+
+Ketika kita melihat struktur tabel dengan perintah desc, ada kolom Null yang berisi Yes dan No. Apa maksudnya ?
+jawab:
+
+Null di Mysql adalah istilah atau tipe data khusus dalam pemograman yang menyatakan ‘tidak ada nilai’, NULL tidak sama dengan 0, atau ‘’(string kosong).
+
+No = Not Null, Fungsinya untuk memastikan bahwa nilai pada kolom tersebut tidak boleh kosong. Jika kita menginput data, namun tidak memberikan nilai untuk kolom tersebut, akan menghasilkan error pada MySQL.
+
+Yes = Null , Atribut NULL berkebalikan dengan NOT NULL, dimana jika sebuah kolom didefinisikan dengan NULL, maka kolom tersebut tidak harus berisi nilai.
+
+Buat laporan praktikum beserta langkah-langkah yang dilakukan dalam bentuk tutorial beserta screenshot outputnya (point 1)
+
 
 
 
